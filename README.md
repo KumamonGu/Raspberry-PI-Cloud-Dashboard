@@ -38,7 +38,7 @@ Create a new database
 to check if is added
 
 # Step 3: Collect data from RPI and transfer data to cloud InfluxDB(1)
-See file demo.py
+See file cloud.py
 
 # Step 4； Get Google VM machine ready
 to be added
