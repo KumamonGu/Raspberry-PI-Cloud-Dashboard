@@ -123,7 +123,9 @@ $ sudo update-rc.d grafana-server defaults
 Detailed code can be found within cloud.py. The current code contains:
 
 1.Collect system data from local RPI
+
 2.Simulated sensor data
+
 3.Transfer these data to cloud side
 
 Please be reivse this file accordingly to transfer your own datas to cloud.
@@ -135,7 +137,12 @@ chmod +x /home/pi51/demo.py
 ```
 IP is the external IP address of your cloud VM. USER is the username of the database, password is the authorization password.
 # Step 7: Step up Grafana Dashboard
-See the json file
+Use 
+>HTTP://IP:3000
+to log into grafana on cloud VM or RPI.
+
+Choose Import dashboard, upload the .json file for accessing dashboard.
 
 # Step 8: Results
+Please see the final results of our dashboard.
 <img width="962" alt="66" src="https://github.com/user-attachments/assets/5ab320f1-0c3a-45dc-9068-fcdfc412fc11">
