@@ -8,10 +8,13 @@ Raspberry PI 5, InfluxDB, Grafana, Google Cloud VM
 Raspberry PI 5, InfluxDB, Grafana, Local Debian/Ubuntu Linux machine
 
 ## Step 1: Set up Raspberry PI and Sensors(if applicable)
-Before You can really start, you need first to set up your Raspberry PI to start. If your RPI comes with a pre-installed system(e.g. You bought it from companies like Canakit), please follow the instructions I've included here. Otherwise, a useful tool can be found at https://www.raspberrypi.com/software/.
-Your RPI system should be Debian or Ubuntu. A Desktop version of the system is not needed.
+Before You can really start, you need first to set up your Raspberry PIs. If your RPI comes with a pre-installed system(e.g. You bought it from companies like Canakit), please follow the instructions that they offered.
 
-# Step 2: Get InfluxDB ready
+Otherwise, a useful tool can be found at [Raspberry Pi OS](https://www.raspberrypi.com/software/). Your RPI system should be any version of 64-bit Debian or Ubuntu. The desktop version of the system is NOT required. 
+
+If you have any sensors, 
+
+## Step 2: Get InfluxDB ready
 Open your terminal,
 
  $ wget -q https://repos.influxdata.com/influxdata-archive_compat.key
