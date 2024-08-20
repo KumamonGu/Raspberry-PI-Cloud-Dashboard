@@ -1,9 +1,14 @@
 # Raspberry-PI-Cloud-Dashboard
-A Raspberry PI Dashboard design on Cloud VM
-Tools needed: InfluxDB, Grafana, Raspberry PI 5, Google Cloud VM
+A Grafana Dashboard can be deployed on any Debian/Ubuntu machine(including Cloud VM or local machine) to monitor the system parameters of real-world Raspberry PIs. It can also be utilized to monitor sensor data if such sensors are connected to real-world Raspberry PIs.
 
-# Step 1: Set up Raspberry PI
-You can set up your Raspberry PI to start. If your RPI comes with a pre-installed system(e.g. You bought it from companies like Canakit), please follow the instructions I've included here. Otherwise, a useful tool can be found at https://www.raspberrypi.com/software/.
+## Tools
+### For Dashboards that can be viewed on a Cloud VM 
+Raspberry PI 5, InfluxDB, Grafana, Google Cloud VM
+### For Dashboards that can be viewed on a Local Linux Machine 
+Raspberry PI 5, InfluxDB, Grafana, Local Debian/Ubuntu Linux machine
+
+## Step 1: Set up Raspberry PI and Sensors(if applicable)
+Before You can really start, you need first to set up your Raspberry PI to start. If your RPI comes with a pre-installed system(e.g. You bought it from companies like Canakit), please follow the instructions I've included here. Otherwise, a useful tool can be found at https://www.raspberrypi.com/software/.
 Your RPI system should be Debian or Ubuntu. A Desktop version of the system is not needed.
 
 # Step 2: Get InfluxDB ready
