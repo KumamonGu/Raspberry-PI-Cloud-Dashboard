@@ -12,7 +12,7 @@ Before You can really start, you need first to set up your Raspberry PIs. If you
 
 Otherwise, a useful tool can be found at [Raspberry Pi OS](https://www.raspberrypi.com/software/). Your RPI system should be any version of 64-bit Debian or Ubuntu. The desktop version of the system is NOT required. 
 
-If you have any sensors, 
+If you have any sensors, please set them up as required.
 
 ## Step 2: Get InfluxDB ready
 Open your terminal,
